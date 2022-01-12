@@ -17,15 +17,3 @@ jobs:
 
       #- name: Another greeting
       #  run: echo "Hello, CI/CD again!"
-
-      - name: Install
-        run: npm install
-      
-      - name: Lint
-        run: npm run lint
-
-      - name: Build
-        run: npm run build
-      
-      - name: Test
-        run: npm test
